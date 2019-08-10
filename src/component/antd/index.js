@@ -1,8 +1,14 @@
+/*
+ * @Author: summer
+ * @Date: 2019-08-08 20:38:06
+ * @LastEditTime: 2019-08-10 13:18:54
+ * @LastEditors: Do not edit
+ */
 import React, { Component } from 'react';
 
 import { Table, Divider, Tag } from 'antd';
 
-import { Link } from 'react-router'
+// import { Link } from 'react-router'
 
 require('antd/dist/antd.css')
 
@@ -84,7 +90,7 @@ class a extends Component {
     render(){
         return (
             <div>
-                <Link to="/wanglongx" >wanglongx</Link>
+                {/* <Link to="/wanglongx" >wanglongx</Link> */}
                 <input />
                 <Table columns={columns} dataSource={data} />
             </div>

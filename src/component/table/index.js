@@ -1,11 +1,17 @@
+/*
+ * @Author: summer
+ * @Date: 2019-08-07 14:26:26
+ * @LastEditTime: 2019-08-10 13:19:59
+ * @LastEditors: Do not edit
+ */
 import React, { Component } from "react";
 
 
 import Table from 'bee-table'
 
-import FormControl from 'bee-form-control';
+// import FormControl from 'bee-form-control';
 
-import { Link } from 'react-router';
+// import { Link } from 'react-router';
 
 require('bee-table/build/Table.css')
 require('bee-form-control/build/FormControl.css')
@@ -78,8 +84,9 @@ class Demo extends Component {
   render() {
         return (
             <div>
-                <Link to="/wanglongx">bee-table</Link>
-                <FormControl></FormControl>
+                {/* <Link to="/wanglongx">bee-table</Link> */}
+                {/* <FormControl></FormControl> */}
+                <input />
                 <Table columns={columns8} data={this.state.data} />
             </div>
         );
